@@ -1,0 +1,9 @@
+using arrT = string[10];
+arrT* func();
+
+auto fun()->string(*)[10];
+
+string ood[10];
+decltype(ood) *fun();
+
+对吗？？
