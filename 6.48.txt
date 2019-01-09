@@ -1,0 +1,33 @@
+#include<iostream>
+
+using namespace std;
+
+void f()
+{
+	cout << "f()" << endl;
+	return;
+}
+void f(int)
+{
+	cout << "f(int)" << endl;
+	return;
+}
+void f(int, int)
+{
+	cout << "f(int,int)" << endl;
+	return;
+}
+void f(double, double = 3.14)
+{
+	cout << "f(double, double = 3.14)" << endl;
+	return;
+}
+int main(int argc,char *argv[])
+{   
+	f(42);
+	f(42, 0);
+	f(2.56, 3.14);
+	f(2.56, 42);//报错
+	system("pause");
+	return 0;
+}

@@ -1,0 +1,2 @@
+严重性	代码	说明	项目	文件	行	禁止显示状态
+错误	LNK2019	无法解析的外部符号 "public: class Screen & __thiscall Screen::set(char)" (?set@Screen@@QAEAAV1@D@Z)，该符号在函数 _main 中被引用	exercise	D:\RaniFile\r_c++\exercise\exercise\main.obj	1	
