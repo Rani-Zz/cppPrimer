@@ -1,0 +1,3 @@
+istringstream imm;//外部直接定义一个istringstream对象
+imm.clear();//循环内部复位
+imm.str(line);//循环内部将line拷贝到imm中，返回void
